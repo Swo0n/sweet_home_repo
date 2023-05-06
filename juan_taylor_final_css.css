@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+height: 125vh;
+margin-top: 80px;
+background-size: cover;
+font-family: sans-serif;
+background-color: #F5E7D1;
+}
+
+header {  
+background-color: beige;  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 30px;  
+display: flex;  
+align-items: center;  
+box-shadow: 0 0 25px 0 black;  
+padding-bottom: 5px;
+}  
+
+header * {  
+display: inline;  
+}  
+
+header li {  
+margin: 85px;  
+} 
+
+header li a {  
+color: blue;  
+text-decoration: none;  
+font-size: larger;
+} 
+
+section h2 {
+text-align: center;
+color: mediumpurple;	
+}
+
+section p {
+color: rebeccapurple;
+}
+
+section.center {
+text-align: center;
+}
+
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+font-family: 'Brush Script MT', cursive;
+background-color: beige;
+color: mediumpurple;
+text-align: center;
+padding-right: 50px;
+}
+
+.recommendList {
+color: rebeccapurple;
+display: inline-block; 
+text-align: left; 
+list-style: none;
+margin-top: -5px;
+}
+
+.recommendList li {
+padding-bottom: 15px;
+}
+
+.flt-lft {
+    float: left;
+    margin-right: 10px;
+}
+
+.flt-rgt {
+    float: right;
+	margin-left: 10px;
+}
+
+/*
+div.mockaroons::before {
+	content: url("images/mackaroons.avif");
+}
+*/
+
+.mockaroons {
+height: 225px;
+background-image:url("images/mockaroons.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+margin:0;
+padding:0; 
+}
+
+table  {
+text-align: center;
+font-size: 40px;
+border-spacing: 20px;
+color: #F5F5DD;
+width: 100%;
+}
+
+th {
+color: #8B72BE;
+padding-bottom: 15px;
+}
+
+td.altrow {
+background-color: #8B72BE;
+border-radius: 15px;
+text-align: center;
+padding: 20px;
+}
+
+td, td a {
+background-color: #8B72BE;
+color: #F5F5DD;
+padding: 5px;
+}
+
+.middle {
+margin-left: auto;
+margin-right: auto;
+margin-top: -30px;
+}
